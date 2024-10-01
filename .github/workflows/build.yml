@@ -67,7 +67,7 @@ jobs:
                         symfony-version: '7.0'
 
         steps:
-            -   uses: actions/checkout@v3
+            -   uses: actions/checkout@v4
 
             -   name: Setup PHP
                 uses: shivammathur/setup-php@v2
@@ -128,7 +128,7 @@ jobs:
         runs-on: ubuntu-latest
         name: Static analysis
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
 
             - name: Setup PHP
               uses: shivammathur/setup-php@v2
